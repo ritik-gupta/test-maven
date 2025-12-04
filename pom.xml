@@ -61,10 +61,37 @@
             <artifactId>reactor-netty</artifactId>
             <version>1.3.0-M1</version>
             <exclusions>
-                <!-- Exclude all transitive dependencies from commons-lang3 if any existed -->
                 <exclusion>
-                    <groupId>netty-handler</groupId>
-                    <artifactId>io.netty</artifactId>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-handler</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-handler-proxy</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-resolver-dns</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-resolver-dns-native-macos</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-transport-native-epoll</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-codec-http</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-codec-http2</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.netty.incubator</groupId>
+                    <artifactId>netty-incubator-codec-native-quic</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -75,5 +102,3 @@
         </dependency>
     </dependencies>
 </project>
-
-    
