@@ -93,6 +93,30 @@
                     <groupId>io.netty.incubator</groupId>
                     <artifactId>netty-incubator-codec-native-quic</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>io.projectreactor.netty</groupId>
+                    <artifactId>reactor-netty-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.projectreactor</groupId>
+                    <artifactId>reactor-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.reactivestreams</groupId>
+                    <artifactId>reactive-streams</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.jspecify</groupId>
+                    <artifactId>jspecify</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.projectreactor.netty</groupId>
+                    <artifactId>reactor-netty-http</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.projectreactor.netty.incubator</groupId>
+                    <artifactId>reactor-netty-incubator-quic</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
