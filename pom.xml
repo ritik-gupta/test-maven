@@ -60,6 +60,13 @@
             <groupId>io.projectreactor.netty</groupId>
             <artifactId>reactor-netty</artifactId>
             <version>1.3.0-M1</version>
+            <exclusions>
+                <!-- Exclude all transitive dependencies from commons-lang3 if any existed -->
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>software.amazon.ion</groupId>
