@@ -15,7 +15,7 @@
   </servers>
   <mirrors>
     <mirror>
-      <id>fortknox-lineaje</id>
+      <id>jfrog-artifactory</id>
       <mirrorOf>*,!plugin-repository,!central-plugins</mirrorOf>
       <url>https://jfrog.commercialdev.dev.veedna.com/artifactory/gos-all-maven</url>
     </mirror>
@@ -29,7 +29,7 @@
       </activation>
       <repositories>
         <repository>
-          <id>fortknox-lineaje</id>
+          <id>jfrog-artifactory</id>
           <url>https://jfrog.commercialdev.dev.veedna.com/artifactory/gos-all-maven</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
