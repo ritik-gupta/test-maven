@@ -14,7 +14,7 @@
         <repository>
             <id>jfrog-artifactory</id>
             <name>JFrog Artifactory</name>
-            <url>https://enforce.fortknox.commercialdev.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
+            <url>https://enforce.fortknox.commercialstaging.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
