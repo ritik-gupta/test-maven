@@ -14,7 +14,7 @@
         <repository>
             <id>jfrog-artifactory</id>
             <name>JFrog Artifactory</name>
-            <url>https://enforce.fortknox.commercialstaging.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
+            <url>https://observe.fortknox.commercialstaging.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -51,11 +51,6 @@
     </pluginRepositories>
     
     <dependencies>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20230227</version>
-        </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-annotations-api</artifactId>
