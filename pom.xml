@@ -61,5 +61,11 @@
             <artifactId>tomcat-annotations-api</artifactId>
             <version>11.0.6</version>
         </dependency>
+        <dependency>
+            <groupId>com.amazon.ion</groupId>
+            <artifactId>ion-java</artifactId>
+            <version>1.10.5</version>
+        </dependency>
+        
     </dependencies>
 </project>
