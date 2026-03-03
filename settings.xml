@@ -17,7 +17,7 @@
     <mirror>
       <id>jfrog-artifactory</id>
       <mirrorOf>*,!plugin-repository,!central-plugins</mirrorOf>
-      <url>https://observe.fortknox.commercialstaging.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
+      <url>https://observe.fortknox.commercialdev.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
     </mirror>
   </mirrors>
 
@@ -30,7 +30,7 @@
       <repositories>
         <repository>
           <id>jfrog-artifactory</id>
-          <url>https://observe.fortknox.commercialstaging.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
+          <url>https://observe.fortknox.commercialdev.dev.veedna.com/artifactory/gos-all-proxy-maven</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
